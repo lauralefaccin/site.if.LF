@@ -1,0 +1,191 @@
+html{
+    background-color: rgb(125, 6, 6);
+}
+
+
+.fixed-menu {
+    position: sticky;
+    top: 0;
+    background-color: rgb(143, 37, 11);
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.fixed-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/*cabeçalho*/
+.textt:hover {
+    color: rgb(53, 1, 1);
+}
+    .flex-containerr {
+        display: flex;                          
+        align-items: center;                     
+        background-color: rgb(124, 0, 0);      
+        padding: 0px;                           
+    }
+    
+    .imagee {
+        width: 120px;                           
+        margin-left: 80px;                  
+    }
+#mapa{display: flex;
+justify-content: center;
+}
+.mapa2 {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+    .imagee1 {    
+        width: 250px;         
+        height: 250px;                  
+        margin-left: 100px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .imagee2 {
+        width: 250px;
+        height: 250px;
+        margin-right: 50px ;
+        display: flex;
+        justify-content: left ;
+    }
+    
+    .imagee3 {        
+        width: 150px;          
+        margin-left: 45%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .text-container {
+        flex: 0.82;                              
+        display: flex;                         
+        justify-content: center;  
+        text-align: center;
+    }
+    
+    .textt {
+        text-align: center;                     
+        font-size: 2.0rem;  
+        color: #ffffff;    
+    }
+.fixed-menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.fixed-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.custom-title {
+    font-size: 45px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000; 
+    text-transform: uppercase; /* Transformar texto em maiúsculas */
+    text-align: center;
+    margin-top: 8px; 
+}
+
+/*cabeçalho*/
+.textt:hover {
+    color: rgb(125, 6, 6);
+}
+    .flex-containerr {
+        display: flex;                          
+        align-items: center;                     
+        background-color: rgb(86, 36, 5);      
+        padding: 0px;                           
+    }
+    
+    .imagee {
+        width: 120px;                           
+        margin-left: 80px;                  
+    }
+    
+    .text-container {
+        flex: 0.82;                              
+        display: flex;                         
+        justify-content: center;  
+        text-align: center;
+    }
+    
+    .textt {
+        text-align: center;                     
+        font-size: 2.0rem;  
+        color: rgb(53, 1, 1);;    
+    }
+    .flex-containerr {
+        display: flex;                          
+        align-items: center;                     
+        background-color: rgb(124, 0, 0);      
+        padding: 0px;                           
+    }
+
+.title {
+    margin: 0 10px;
+    white-space: nowrap;
+}
+h1{
+    background-color: rgb(53, 1, 1);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+ul {
+    color: #ffffff;
+}
+
+li {
+    color: #ffffff;
+}
+h2 {
+    color: #ffffff;
+}
+h3 {
+    color: #ffffff;
+}
+
+h4 {
+    color: rgb(125, 6, 6) ;
+}
+
+
+/*SEM ALCOOL///////////////////////////////////////////////*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+figure.container {
+    text-align: center;
+    margin: 0;
+    width: 200px; /* Ajuste a largura conforme necessário */
+}
+
+figcaption {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+ background-color: rgb(74, 6, 6);
+}
